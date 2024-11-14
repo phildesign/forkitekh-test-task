@@ -1,6 +1,6 @@
-import styles from './App.module.css';
+import styles from './App.module.scss';
 
-const App = () => {
+const App = (): JSX.Element => {
 	return <div className={styles.root}></div>;
 };
 
